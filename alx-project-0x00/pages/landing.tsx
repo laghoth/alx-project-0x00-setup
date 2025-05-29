@@ -17,12 +17,18 @@ const Landing: React.FC = () => {
 
       {/* Button Examples */}
       <div className="mt-6 flex flex-col gap-3">
-        <Button title="Small Button" styles="text-sm rounded-sm bg-blue-500" />
         <Button
-          title="Medium Button"
-          styles="text-base rounded-md bg-green-100"
+          title="Small Rounded-sm"
+          styles="text-sm rounded-sm bg-blue-500"
         />
-        <Button title="Large Button" styles="text-lg rounded-full bg-red-500" />
+        <Button
+          title="Medium Rounded-md"
+          styles="text-base rounded-md bg-green-500"
+        />
+        <Button
+          title="Large Rounded-full"
+          styles="text-lg rounded-full bg-red-500"
+        />
       </div>
     </div>
   );
